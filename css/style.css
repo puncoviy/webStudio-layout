@@ -145,6 +145,7 @@ body {
 .header-slider__img {
     margin: 10px 82px 0 0;
     max-height: 303px;
+    transition: opacity .5s;
 }
 
 /* -------------------------slider---------------------- */
