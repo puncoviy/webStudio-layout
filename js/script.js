@@ -26,6 +26,9 @@ setInterval (function(){
         sliderDots[index].classList.add('active');
     }, 300);
     index++;
+    // problem here - I can run slider from 1st photo, but it ends on 4th
+    // so I decided to make it from 2nd to 5th
+    // also I would like to add pause on mouseover
 } , 5000);
 
 sliderImg.addEventListener('click', function(){
