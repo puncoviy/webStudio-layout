@@ -218,6 +218,7 @@ body {
 
 .features__item-img {
     margin-bottom: 23px;
+    min-height: 159px;
 }
 
 .features__item-title {
