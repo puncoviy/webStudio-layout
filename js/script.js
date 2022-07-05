@@ -63,8 +63,8 @@ for(let i=0; i<sliderDots.length; i++) {
 
 // next function is for parallax; borrowed code with modification
 (function() {
-    document.addEventListener("mousemove", parallax);
     const elem = document.querySelectorAll(".parallax");
+    document.addEventListener("mousemove", parallax);
     function parallax(e) {
         let _w = window.innerWidth/2;
         let _h = window.innerHeight/2;
